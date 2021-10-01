@@ -1,2 +1,1 @@
-# File-System
-FAT-based filesystem software stack.
+# File System
