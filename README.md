@@ -44,6 +44,7 @@ The root directory is an array of 128 entries stored in the data block immediate
 |0x10|4|Size of the file (bytes)
 |0x14|2|Index of the first data block
 |0x16|10|Unused/Padding
+
 *Empty entries* are defined by the first character of an entry's filename being equal to the NULL character.
 
 The *entry for an empty file* would have its size be 0 and the index of the first data block be `FAT_EOC`.
